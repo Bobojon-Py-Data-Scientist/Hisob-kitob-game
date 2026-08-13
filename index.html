@@ -1,1 +1,33 @@
-<!doctype html><html lang="uz"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hisob-kitob o‘yini</title><link rel="stylesheet" href="style.css"></head><body><main id="menu" class="card"><div class="emoji">🧮</div><h1>Hisob-kitob o‘yini</h1><p>10 gacha qo‘shish va ayirishni o‘rganamiz!</p><button id="start">▶ O‘yinni boshlash</button></main><main id="game" class="card hidden"><div class="top"><b>⭐ Ball: <span id="score">0</span></b><b>❤️ Jon: <span id="lives">3</span></b><button id="home">🏠</button></div><div class="badge">1-TOPSHIRIQ</div><h2>Javobni top!</h2><div id="q" class="question">3 + 1 = ?</div><input id="ans" type="number" inputmode="numeric" placeholder="?"><button id="check">✅ Tekshirish</button><button id="next" class="hidden">➡ Keyingi savol</button><div id="msg"></div></main><script src="game.js"></script></body></html>
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hisob-kitob o‘yini</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="menu" class="card">
+  <div class="emoji">🧮</div>
+  <h1>Hisob-kitob o‘yini</h1>
+  <p>10 gacha qo‘shish va ayirishni o‘rganamiz!</p>
+  <button id="start">▶ O‘yinni boshlash</button>
+</main>
+
+<main id="game" class="card hidden">
+  <div class="top">
+    <b>⭐ Ball: <span id="score">0</span></b>
+    <b>❤️ Jon: <span id="lives">3</span></b>
+    <button id="home">🏠</button>
+  </div>
+
+  <div id="q" class="question">3 + 1 = ?</div>
+  <input id="ans" type="number" inputmode="numeric" placeholder="?">
+  <button id="check">✅ Tekshirish</button>
+  <button id="next" class="hidden">➡ Keyingi savol</button>
+  <div id="msg"></div>
+</main>
+
+<script src="game.js"></script>
+</body>
+</html>
